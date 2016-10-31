@@ -1,0 +1,257 @@
+/*.tbd2 select {
+     background: #000;
+     color: #fff;
+}*/
+/*.tel{
+     color: #fff;
+}*/
+/*a: link {
+     color: #fff;
+}*/
+/*.dv{
+    background-image: url(../imgs/Cal.png);
+    image-rendering: auto;
+    
+}*/
+
+
+
+/*table::before {
+    height: 80px;
+    width: 80px;
+    top: 160px;
+    left: 600px;
+    content: "";
+       
+
+    position: absolute;
+
+    background-image: url(../imgs/Cup.png);
+    background-size: cover;
+    display: inline-block;
+   
+    /*transition: 4s;
+}
+
+    table:hover:before {
+    transform: rotate(270deg);
+    transition: 4s;
+}*/
+
+tbody:nth-of-type(1) th, tbody:nth-of-type(1) th {
+    width: auto;
+    overflow: visible;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /*color: #fff;*/
+}
+
+table {
+    margin: auto;
+}
+caption {
+   /*color: #ffffff;*/
+   font-size: 27px;
+ }
+tbody:nth-of-type(1) th:nth-of-type(2)  , tbody:nth-of-type(1) th:nth-of-type(3)  {
+    width: 150px;
+    text-align: right;
+    padding-right: 5px;/*5*/
+}
+tbody:nth-of-type(1) td {
+    padding-left: 5px; /*5*/
+}
+tbody:nth-of-type(2) {
+    text-align: center;
+}
+tbody:nth-of-type(2) th:first-child {
+    text-align: right;
+    padding-right: 5px;/*5*/
+}
+tbody:nth-of-type(2) td {
+    width: 120px;
+} 
+.photo {
+
+    text-align: center;
+    image-rendering: auto;
+    width: 80px;
+    height: 80px; 
+    image-rendering: auto;
+}
+.outer {
+        margin:0 auto;
+        position:absolute; 
+        left:0; 
+        bottom:0; 
+        width:600px;
+        height:400px;
+}
+.inner {
+        width:600px; 
+        height:400px;
+        position:absolute;
+        left:0;
+        top:0;
+        background:url(../imgs/green.png);
+        /*text-align: top;*/
+        padding:28px 0 0 7px;
+        font-size: 13px;
+
+    }
+    
+.p1 {
+        width:0px; 
+        height:400px;
+        position:absolute; 
+        left:600px; 
+        top:0px; 
+        overflow:hidden; 
+        border-right:1px solid #600;
+        background:url(../imgs/green.png) right top;
+        -webkit-transition: 1.7s ease-in-out;
+        -moz-transition: 1.7s ease-in-out;
+        -ms-transition: 1.7s ease-in-out;
+        -o-transition: 1.7s ease-in-out;
+        transition: 1.7s ease-in-out;
+
+       }
+
+.p1 div {
+        width:300px; 
+        height:400px; 
+        position:absolute; 
+        left:0;
+        top:0;
+        background:url(../imgs/green.png) repeat-y left top;
+        padding:142px 0 0 40px;
+        font-size: 115px;
+
+        
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+   @keyframes slidein {
+      from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+.p2 {
+        width:0px; 
+        height:400px; 
+        position:absolute; 
+        left:600px; 
+        top:0;
+        overflow:hidden; 
+        background:url(../imgs/green.png) right top;
+        -webkit-transition: 1.7s ease-in-out;
+        -moz-transition: 1.7s ease-in-out;
+        -ms-transition: 1.7s ease-in-out;
+        -o-transition: 1.7s ease-in-out;
+        transition: 1.7s ease-in-out;
+
+       -webkit-box-shadow: -6px -1px 1px 0px #600;
+       -moz-box-shadow: -6px -1px 1px 0px #600;
+        box-shadow: -6px -1px 1px 0px #600;
+}
+.p2 div {
+        width:300px;
+        height:400px;
+        position:absolute;
+        left:-300px; 
+        top:0;
+        padding:142px 0 0 40px;
+        font-size: 115px;
+        -webkit-transition: 1.7s ease-in-out;
+        -moz-transition: 1.7s ease-in-out;
+        -ms-transition: 1.7s ease-in-out;
+        -o-transition: 1.7s ease-in-out;
+        transition: 1.7s ease-in-out;
+
+
+ animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+}
+.click a:hover .outer .p1 {
+                        width:300px; 
+                        left:0;
+                        top:0px;
+}
+.click a:hover .outer .p2 {
+                        width:300px; 
+                        left:300px; 
+                        top:0;
+}
+.click a:hover .outer .p2 div {
+                        left:0; 
+                        top:0;
+}
+.frame {
+        position:relative; 
+        width:600px; 
+        height:400px; 
+        margin:0 auto; 
+        border:10px solid #600; 
+        overflow:hidden;
+}
+#info .frame a {
+        display:block; 
+        outline:0; 
+        position: absolute; 
+        left:0; 
+        top:0; 
+        width: 600px;
+        height: 400px; 
+        color:#000; 
+        font-size:15px; /*15*/
+        text-decoration:none;
+}
+/*.click a:active, .click a:focus {z-index: 30;}
+.click a:active + a, .click a:focus + a {z-index: 40;}
+.click a#a1 {z-index: 20;}
+.click a#a1:active, .click a#a1:focus {z-index:20;}*//
+.hover a:hover {z-index: 30;}
+.hover a:hover + a {z-index: 40;}
+.hover a#a1 {z-index: 20;}*/
+.hover a#a1:hover {z-index:20;}//
+.frame img {
+            margin:0 auto; 
+            width:260px;     /*260 */
+            height:360px;   /*360*/
+            padding:20px;  /*20 */
+            display:table-cell; 
+            font: 14px/25px georgia, serif;/*14/25 */
+            color:#600; 
+            text-align:justify; 
+            vertical-align:middle;
+}
+   
+    /*#info .frame p.ctr {text-align:center;
+     
+    }                 /* #info .frame */
+
+    

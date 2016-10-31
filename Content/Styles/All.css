@@ -1,0 +1,26 @@
+﻿ * {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 0 0px #a11d1d;
+}
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: table;
+    /*background-color: #000000;*/
+}
+main {
+     display: table-cell;
+     vertical-align: middle;
+}
+.angle-bracket {
+    quotes: "<"">";
+}
+.one-bracket{
+    quotes: "'""'";
+}
+.none{
+    quotes: none;
+} 
